@@ -1,0 +1,18 @@
+{
+  "name": "Dark Tab",
+  "description": "Replace the new tab page with a dark, high-quality, minimalist user interface that pairs nicely with dark themes.",
+  "version": "1.0",
+  "author": "Bhavik Raval",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "New Tab"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://api.unsplash.com/*",
+    "https://unsplash.com/*"
+  ]
+}
