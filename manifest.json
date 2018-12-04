@@ -4,15 +4,27 @@
   "version": "1.0",
   "author": "Bhavik Raval",
   "manifest_version": 2,
+  "icons": {
+    "128": "light-on-128.png",
+    "48": "light-on-48.png",
+    "16": "light-on-16.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  },
   "browser_action": {
-    "default_title": "New Tab"
+    "default_icon": "light-on-16.png",
+    "default_title": "Dark Tab"
   },
   "chrome_url_overrides": {
     "newtab": "newtab.html"
   },
   "permissions": [
     "activeTab",
-    "http://api.unsplash.com/*",
-    "https://unsplash.com/*"
+    "storage",
+    "http://api.unsplash.com/*"
   ]
 }
