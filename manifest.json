@@ -1,7 +1,7 @@
 {
   "name": "Dark Tab",
   "description": "Replace the new tab page with a dark, high-quality, minimalist user interface that pairs nicely with dark themes.",
-  "version": "1.2",
+  "version": "1.3",
   "author": "Bhavik Raval",
   "manifest_version": 2,
   "icons": {
